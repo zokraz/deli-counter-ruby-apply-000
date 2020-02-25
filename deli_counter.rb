@@ -24,6 +24,19 @@ katz_deli << name
 puts "Welcome, #{name}. You are number #{katz_deli.length} in line."
 end
 
+katz_deli_counter = 0 
+
+def katz_deli_counter(take_a_number)
+  
+  puts "katz_deli_counter #{take_a_number} in line."
+  
+  katz_deli_counter += 1 
+  
+  puts katz_deli_counter
+  
+  
+end
+
 def now_serving(katz_deli)
   if katz_deli.size == 0
     puts "There is nobody waiting to be served!"
