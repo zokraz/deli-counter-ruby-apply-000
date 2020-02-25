@@ -28,12 +28,9 @@ katz_deli_counter = 0
 
 def katz_deli_counter(take_a_number)
   
-  puts "katz_deli_counter #{take_a_number} in line."
+  puts "Welcome, you are #{katz_deli_counter} in line."
   
-  katz_deli_counter += 1 
-  
-  puts katz_deli_counter
-  
+  katz_deli_counter += 1
   
 end
 
